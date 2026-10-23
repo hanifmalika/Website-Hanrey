@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOX Model</title>
+    <link rel="stylesheet" href="box.css" />
+  </head>
+  <body>
+    <a href="index.html">Back to Home</a>
+
+    <p id="tittle">Belajar BOX Model</p>
+    <table border="1">
+        <tr>
+            <th>Property</th>
+            <th>Fungsi</th>
+        </tr>
+        <tr>
+            <td>border-style</td>
+            <td>Untuk menentukan gaya border</td>
+        </tr>
+        <tr>
+            <td>border-width</td>
+            <td>Untuk menentukan lebar border</td>
+        </tr>
+        <tr>
+            <td>Padding</td>
+            <td>Untuk menentukan jarak antara border dengan konten</td>
+        </tr>
+        <tr>
+            <td>Margin</td>
+            <td>Untuk menentukan jarak antara border dengan elemen lain</td>
+    </table>
+    <div class="container">
+        <div id="box1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+        est laborum.
+        </div>
+        
+        <img src="Stylebox.png" alt="Gambar Box Model" width="400" height="300">
+        
+    </div>
+
+    <p style="font-weight: bold;">Border</p>
+    <div id="box2">
+      <p>
+        border-style: dotted; border-width: 5px; border-top-style: double;
+        border-right-style: groove; border-bottom-style: ridge;
+        border-left-style: inset;
+      </p>
+
+      <p>
+        border-top-width: 5px; border-right-width: 10px; border-bottom-width:
+        15px; border-left-width: 20px;
+      </p>
+    </div>
+    <p class="border">border-style urutan : atas, kanan, bawah, kiri</p>
+    <p class="border">border-width urutan : atas, kanan, bawah, kiri</p>
+    <div id="box3">
+      <p>border-style: double groove ridge inset;</p>
+      <p>border-width: 5px 10px 15px 20px;</p>
+    </div>
+    <p style="font-weight: bold;">Padding</p>
+    <div id="box4">
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    padding-left: 200px;
+    </div>
+    <div id="box5">
+    padding: 100px 50px 150px 200px;
+    </div>
+
+    <p style="font-weight: bold;">Inline</p>
+    <p class="border"> Menggunakan <span>display: inline-block;</span></p>
+    <div class="box6">
+      <p>Ini adalah contoh inline </p>
+    </div>
+    <div class="box6">
+      <p>Ini adalah contoh inline</p>
+    </div>
+    <div class="box6">
+      <p>Ini adalah contoh inline</p>
+    </div>
+    
+
+
+  </body>
+</html>

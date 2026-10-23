@@ -1,0 +1,177 @@
+h1 {
+  text-align: center;
+}
+
+.arti {
+  text-align: center;
+  font-size: 20px;
+}
+
+.kotak {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+/* Setiap kelompok judul dan contoh */
+.card {
+  flex: 0 0 calc((100% - 40px) / 3);
+  box-sizing: border-box;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+/* Judul */
+.card h1 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+/* Kotak Flexbox */
+section {
+  display: flex;
+  height: 150px;
+  padding: 10px;
+  background-color: #e9ecef;
+  border: 1px dashed #999;
+  gap: 5px;
+}
+
+section div {
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+}
+
+/* Contoh justify-content */
+#justify1 {
+  justify-content: flex-start;
+}
+
+#justify2 {
+  justify-content: flex-end;
+}
+
+#justify3 {
+  justify-content: center;
+}
+
+#justify4 {
+  justify-content: space-between;
+}
+
+#justify5 {
+  justify-content: space-around;
+}
+
+#justify6 {
+  justify-content: space-evenly;
+}
+
+#container {
+  flex-direction: row;
+}
+
+#container1 {
+  flex-direction: row-reverse;
+}
+
+#container2 {
+  flex-direction: column;
+}
+
+#container3 {
+  flex-direction: column-reverse;
+}
+
+#flex1 {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#flex2 {
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+}
+#align1 {
+  align-items: flex-start;
+}
+
+#align2 {
+  align-items: flex-end;
+}
+
+#align3 {
+  align-items: center;
+}
+#align4 {
+  align-items: stretch;
+}
+
+#align5 {
+  align-items: baseline;
+}
+
+#align6 {
+  align-items: center;
+  justify-content: center;
+}
+
+#aligncon1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+#aligncon2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+#aligncon3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#aligncon4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+#aligncon5 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+#aligncon6 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+
+#alignself div:nth-of-type(2){
+    align-self: flex-end;
+}
+
+#alignself div:nth-of-type(4){
+    align-self: center;
+}
+
+#alignself1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+#alignself1 div:nth-of-type(4){
+    align-self: flex-end;
+}
